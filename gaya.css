@@ -1,0 +1,133 @@
+#loading{
+display:none;
+}
+body{
+font-family:Helvetica Neue,"Arial",Helvetica,Verdana,sans-serif;
+margin: 0;
+text-align:center;
+background:#b9ff73;
+font-size: 62.5%;
+}
+#wrapper{
+font-size:12pt;
+width:500px;
+margin:65px auto 20px;
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-moz-border-radius-topleft:5px;
+-moz-border-radius-topright:5px;
+-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25);
+-webkit-border-radius:5px;
+-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25);
+text-align:left;
+padding: 20px 20px 20px 20px;
+background:#ffdb8c;
+}
+#header{
+border-bottom:5px solid #c4843f;
+color:#f57900;
+font-size:24pt;
+padding-bottom:7px;
+font-family:serif;
+}
+#badan{
+padding:15px 10px 20px;
+}
+#footer{
+border-top:1px solid #9e6a33;
+font-family:Verdana;
+padding:7px 5px 1px;
+font-size:x-small;
+text-align:right;
+}
+label,input{
+display:block;
+}
+label{
+margin-top:5px;
+}
+input,select{
+font-family:Helvetica Neue,"Arial",Helvetica,Verdana,sans-serif;
+font-size:11pt;
+}
+#komentar{
+font-size:11pt;
+width:400px;
+height:120px;
+font-family:Helvetica Neue,"Arial",Helvetica,Verdana,sans-serif;
+}
+#ok{
+background-color:#FF5C00;
+padding:5px;
+border:0 none;
+font-family:inherit;
+margin:5px 0 0;
+text-align:left;
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-moz-border-radius-topleft:5px;
+-moz-border-radius-topright:5px;
+-webkit-border-radius:5px;
+-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25);
+cursor:pointer;
+font-weight:bold;
+width:auto;
+}
+#ok:hover{
+background-color:#D45500;
+}
+.smalic{
+margin:-1.4em 0.3em 0.3em 5.8em;
+width:18px;
+height:18px;
+display:none;
+}
+#validateTips{
+color:#be2e17;
+text-align:center;
+font-size:smaller;
+}
+#berhasil{
+padding:20px;
+font-size:24pt;
+text-align:right;
+background:url('images/ok.png') no-repeat 12% 30%;
+display:none;
+}
+#gagal{
+padding:20px;
+font-size:24pt;
+text-align:right;
+background:url('images/gagal.png') no-repeat 12% 30%;
+display:none;
+}
+#berhasil h1,#gagal h1{
+margin:0;
+font-weight:normal;
+}
+#lihat{
+font-size:smaller;
+width:480px;
+}
+#lihat td{
+vertical-align: top;
+margin:0;
+}
+.alt{
+background:#FFFFCC;
+}
+#listsek{
+font-size:smaller;
+width:200px;
+float:right;
+}
+#bersih{
+clear:both;
+font-size:small;
+padding-top:5px;
+text-decoration:underline;
+}
